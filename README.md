@@ -42,7 +42,7 @@ To run, the main class file (the class containing the function main) is handed t
 
 ![My Remote Image](https://www.guru99.com/images/java/052016_0614_WorkingofJa10.jpg)
 
-#### Java Class Loaders
+#### JVM Class Loaders
 Class loaders are in charge of dynamically loading Java classes into the JVM (Java Virtual Machine) during runtime.
 They are also included in the JRE (Java Runtime Environment).
 As a result of class loaders, the JVM does not need to know about the underlying files or file systems in order to run Java programs.
@@ -52,6 +52,14 @@ Furthermore, these Java classes are loaded into memory only when they are needed
 This is when class loaders come in handy.
 They are in charge of loading classes into memory. 
 
+
+
+#### JVM bytecode verifier
+
+After the class loader in the JVM loads the byte code of the.class file to the machine, the verifier checks the bytecode for integrity, which is known as verification.
+The verifier does as much verification as feasible at the Linking so that the interpreter's intensive activity at run time may be avoided.
+It improves the interpreter's performance. 
+
 Some of the checks that verifier performs:
 
     - Uninitialized Variables
@@ -60,9 +68,7 @@ Some of the checks that verifier performs:
     - There are no operand stack overflows or underflows.
     - The arguments to all the Java Virtual Machine instructions are of valid types.
     - Ensuring that final classes are not subclassed and that final methods are not overridden
-    - Checking that all field references and method references have valid names, valid classes, and a valid type descriptor. (source)
-
-
+    - Checking that all field references and method references have valid names, valid classes, and a valid type descriptor.
 
       
 
