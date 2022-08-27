@@ -74,7 +74,7 @@ Some of the checks that verifier performs:
 
 Execution Engine helps in executing the byte code by converting it into machine code and also interact with the memory area
 
- ##### nterpreter:
+ ##### Interpreter:
  It is responsible to read, interpret, and execute java program line by line. So if any method is called multiple times new interpretation required which is the main disadvantage of it.
  
 ##### JIT Compiler (Just In Time): 
