@@ -69,6 +69,16 @@ Some of the checks that verifier performs:
     - The arguments to all the Java Virtual Machine instructions are of valid types.
     - Ensuring that final classes are not subclassed and that final methods are not overridden
     - Checking that all field references and method references have valid names, valid classes, and a valid type descriptor.
+    
+#### Execution Engine
+
+Execution Engine helps in executing the byte code by converting it into machine code and also interact with the memory area
+
+ ##### nterpreter:
+ It is responsible to read, interpret, and execute java program line by line. So if any method is called multiple times new interpretation required which is the main disadvantage of it.
+ 
+##### JIT Compiler (Just In Time): 
+The concept of the JIT compiler works only for a repeated method not for every method. To overcome the problem that the interpreter faced while interpreting the byte code, whenever it finds the repeated code, JIT Compiler compiles the entire bytecode and changes it to machine code. This machine code will be used directly for repeated method calls.
 
       
 
