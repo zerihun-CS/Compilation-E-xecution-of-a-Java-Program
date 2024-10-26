@@ -3,7 +3,7 @@
 Because Java is a platform-independent programming language, it does not provide one-step compilation.
 Instead, it is executed in two steps: first through an OS-independent compiler, and then in a virtual machine(JVM) that is custom-built for each operating system.
 
-![My Remote Image](https://sp-ao.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_839/https://simplesnippets.tech/wp-content/uploads/2018/03/java-execution-flow-diagram.png)
+![My Remote Image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*qQDHWG33fU2RQPNqd90unQ.jpeg)
 
 ## Compilation
 
